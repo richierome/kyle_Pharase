@@ -3,7 +3,8 @@
     "name": "startbootstrap-grayscale",
     "version": "5.0.9",
     "scripts": {
-        "gulp-start": "node_modules/.bin/gulp watch"
+        "gulp-start": "node_modules/.bin/gulp watch",
+        "start": "node index.js"
     },
     "description": "A grayscale one page HTML theme for Bootstrap.",
     "keywords": [
