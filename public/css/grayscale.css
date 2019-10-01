@@ -295,3 +295,8 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+/*  */
+.img-fluid{
+  width: 200px;
+  height: 200px;
+}
