@@ -210,11 +210,19 @@
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">
     <div class="container">
-      Copyright &copy; Kyle Phares 2019
+        Copyright &copy; Kyle Phares <span id="currentYear"></span>
     </div>
-  </footer>
+</footer>
+
 
   <!-- Bootstrap core JavaScript -->
+  <script>
+    // Get the current year
+    const currentYear = new Date().getFullYear();
+    // Update the content of the span element with id="currentYear"
+    document.getElementById("currentYear").textContent = currentYear;
+
+</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
   <script src="./static/vendor/jquery/jquery.min.js"></script>
