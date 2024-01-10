@@ -33,11 +33,14 @@
         "@fortawesome/fontawesome-free": "5.10.2",
         "bootstrap": "4.3.1",
         "express": "^4.17.1",
+        "glob-parent": "^6.0.1",
         "gulp-install": "^1.1.0",
         "jquery": "^3.7.1",
         "jquery.easing": "^1.4.1",
         "path": "^0.12.7"
     },
+
+    
     "devDependencies": {
         "browser-sync": "^3.0.2",
         "del": "5.1.0",
@@ -50,5 +53,8 @@
         "gulp-sass": "^5.1.0",
         "gulp-uglify": "3.0.2",
         "merge-stream": "2.0.0"
-    }
+    },
+    "overrides": {
+        "glob-parent": "$glob-parent"
+      }
 }
